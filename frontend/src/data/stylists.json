@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "KITTY BESPALKO",
+      "subtitle": "Founder, Stylist, Colorist",
+      "summary": "Began her career in 2004. Obsessed with creating natural looking reds and blondes, as well as lived in shags, bobs, pixies, and everything in between. When not at the studio, she can be found styling hair for editorial and commercial photoshoots, or weaving on her floor loom.",
+      "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bookingUrl": "https://squareup.com/appointments/book/55dqh2lt0iu73d/L4Q19PXKSFDX1/start"
+    },
+    {
+      "id": 2,
+      "name": "JESSICA CRESS",
+      "subtitle": "Stylist, Colorist",
+      "summary": "Is a master of details and is an expert in both razor and scissor cutting. She sees the client stylist connection as a pivotal part of her work and takes the time to learn about each client’s personality and taste before tailoring a unique style to frame their features. She specializes in lived-in, long-lasting haircuts and colors with a hand-styled finish.",
+      "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bookingUrl": "https://jessica-cress.square.site/"
+    },
+    {
+      "id": 3,
+      "name": "JESSICA KNIGHT",
+      "subtitle": "Stylist, Colorist",
+      "summary": "",
+      "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bookingUrl": "https://jessica-knight-hair.square.site/"
+    }
+  ]
