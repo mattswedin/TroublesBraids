@@ -28,7 +28,7 @@ const Navbar = () => {
                     </span>
                     <span>
                         <button className="hover:text-primary">
-                           <i class="ri-shopping-bag-fill"></i>
+                           <i className="ri-shopping-bag-fill"></i>
                            <sup className="text-xs inline-block px-1 text-white rounded-full bg-primary text-center">0</sup>
                         </button>
                     </span>
