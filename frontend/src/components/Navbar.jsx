@@ -23,7 +23,7 @@ const Navbar = () => {
                  <div className="nav__icons relative">
                     <span>
                         <Link to="/search">
-                            <i class="ri-search-eye-line"></i>
+                            <i className="ri-search-eye-line"></i>
                         </Link>
                     </span>
                     <span>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </span>
                     <span>
                         <Link to="login">
-                            <i class="ri-user-fill"></i>
+                            <i className="ri-user-fill"></i>
                         </Link>
                     </span>
                  </div>
