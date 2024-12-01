@@ -4,16 +4,18 @@ import Categories from "./Brands";
 import Banner2 from "./Banner2";
 import TrendingProducts from "../shop/trendingProducts";
 import DealsSection from "./DealsSection";
+import PromoBanner from "./PromoBanner";
 
 const Home = () => {
     return (
-       <>
+       <div className="background__color">
         <Banner />
         <Categories />
-        <Banner2 />
+        {/* <Banner2 /> */}
         <TrendingProducts />
         <DealsSection />
-       </>
+        <PromoBanner />
+       </div>
         
     )
 }

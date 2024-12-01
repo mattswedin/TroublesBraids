@@ -8,9 +8,9 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
 }
 
 :root {
-    --primary-color: #DAB9B2;
-    --primary-color-dark: #CAA296; 
-    --primary-color-light: #EFE6E0;
+    --primary-color:#995a21;
+    --primary-color-dark: #991a21;
+    --primary-color-light: #99921a;
     --text-dark: #0f172a;
     --text-light: #64748b;
     --extra-light: #f8fafc;
@@ -27,11 +27,22 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
     box-sizing: border-box;
 }
 
-.section__container {
+.background__color {
     background-color: var(--primary-color);
+}
+
+.section__container {
+    background-color: var(--primary-color-light);
     max-width: var(--max-width-1400);
     margin: auto;
     padding: 5rem 1rem;
+}
+
+.light__section__container {
+    background-color: var(--primary-color-light);
+    max-width: var(--max-width-1400);
+    margin: auto;
+    padding: 5rem 2rem;
 }
 
 .section__header {
@@ -51,12 +62,12 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
 }
 
 .btn {
-    padding: 1.25rem 3.5rem;
+    padding: .5rem 3.5rem;
     outline: none;
     border: none;
     font-size: 1.5rem;
     color: var(--white);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-dark);
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
@@ -80,6 +91,7 @@ body {
 }
 
 nav {
+    
     max-width: var(--max-width-1200);
     margin: auto;
     padding: 2rem 1rem;
@@ -88,8 +100,13 @@ nav {
     justify-content: space-between;
 }
 
-.nav__links {
+.navbar {
+    color: white;
+    background-color: var(--primary-color);
+}
 
+.nav__links {
+    
     list-style: none;
     display: flex;
     align-items: bottom;
@@ -98,20 +115,19 @@ nav {
 
 .link a {
     font-weight: 500;
-    color: var(--text-dark);
+    color: white;
 }
 
 .link a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
 }
 
 
 .nav__logo a {
     
     font-size: 2rem;
-    font-weight: 800;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: white;
 }
 
 .nav__logo a span {
@@ -138,9 +154,7 @@ nav {
 .header__container {
     overflow: hidden;
     min-height: 650px;
-    background-color: var(--primary-color-light);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -162,12 +176,12 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: var(--primary-color-dark);
 }
 
 .header__content p {
     margin-bottom: 2rem;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 .header__image {
@@ -256,6 +270,15 @@ nav {
     border-radius: 5px;
 }
 
+.brands__grid {
+    background-color: var(--primary-color);
+    max-width: var(--max-width-900);
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
 .product__grid {
     max-width: var(--max-width-900);
     margin: 4rem auto;
@@ -297,7 +320,42 @@ nav {
     text-align: center;
 }
 
+.stylist__card {
+    text-align: left;
+    padding: 2rem;
+}
+
+.stylist__header__image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.stylist__card img {
+    size: auto;
+}
+
+.stylist__card h1 {
+    font-family: var(--header-font);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.stylist__card h4 ,p{
+    font-size: 13px;
+}
+
+.stylist__card h4 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.stylist__card button {
+    margin-top: 40px;
+}
+
 .deals__container {
+    margin-top: 70px;
     background-color: var(--primary-color-light);
     border-radius: 1rem;
     display: grid;
@@ -389,7 +447,7 @@ nav {
     margin-bottom: 1rem;
     display: inline-block;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--primary-color-light);
 }
 
 .banner__card h4 {

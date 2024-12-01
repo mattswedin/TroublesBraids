@@ -36,6 +36,7 @@ const Brands = () => {
 
     return (
         <>
+        <div className="division__line"></div>
         <div className='product__grid' >
             {
                 brands.map((brand) => (

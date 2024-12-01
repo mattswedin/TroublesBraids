@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <header className="fixed-nav-bar w-nav">
+        <header className="fixed-nav-bar w-nav navbar">
             <nav className='max-w-screen-2x1 mx-auto px-4 flex justify-between items-baseline'>
                 <ul className='nav__links'>
                     <li className="link"><Link to="/">Home</Link></li>
