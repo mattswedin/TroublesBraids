@@ -217,9 +217,8 @@ nav {
 
 .brand__card img {
     max-height: 50px;
-    width: auto;
-
-   
+    width: 200px;
+    object-fit: contain;
 }
 
 .brand__card h4 {
@@ -303,6 +302,11 @@ nav {
     font-size: 1.2rem;
     font-weight: 800;
     font-family: var(--header-font);
+}
+
+.product__container {
+    border-radius: 1rem;
+    
 }
 
 .product__card__content p {

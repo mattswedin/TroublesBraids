@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Partial Highlight",
+        "sub" : "For breaking up the part line or adding a money piece."
+    },
+    {
+        "title": "Half Head Highlight",
+        "sub" : "Highlights around the perimeter and top of the head to add dimension and brightness. Recommended between full highlights."        
+    },
+    {
+        "title": "Full Highlight",
+        "sub" : "Highlights throughout the entire head. Recommended if you’re looking for more impact."        
+    },
+        {
+        "title": "Base Bump",
+        "sub" : "An add on to your usual highlight retouch. Includes a base color applied to the roots to slightly lighten your natural base colour."        
+    },
+    {
+        "title": "Single Process",
+        "sub" : "A great option for covering grays. Applied to the regrowth and finished with a gloss on the ends."        
+    },
+    {
+        "title": "Double Process",
+        "sub" : "Bleach & tone. For clients who want to go platinum, touch up platinum roots, or finish with a fantasy color. Consultation required."        
+    },
+    {
+        "title": "Tint Back",
+        "sub" : "Needed when the desired level is 3+ levels darker, or when pre-lightened hair requires a filler to avoid blue/green/violet muddy tones."        
+    },
+    {
+        "title": "Gloss",
+        "sub" : "Included with all color services. A demi permanent treatment to enhance and refresh color, and add shine. Can be clear or tinted, counteract warmth, or add richness."        
+    },
+    {
+        "title": "Color Correction",
+        "sub" : "Varies from client to client and is intended to correct unwanted color. Consultation required."        
+    },
+   {
+        "title": "Transformative Color",
+        "sub" : "Intended to achieve a more drastic color change. Consultation required."        
+    },
+    {
+        "title": "Fantasy Color",
+        "sub" : "An add on service for pre lightened hair. We can create a variety of hues using semi-permanent neons, pastels, and silvers. Consultation required."        
+    }
+]

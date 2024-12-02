@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <>
-        <footer className="section__container footer__container navbar">
+        <footer className="footer__container">
             <div className='footer__col'>
                 <h4>CONTACT INFO</h4>
                 <p>
