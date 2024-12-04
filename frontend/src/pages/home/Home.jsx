@@ -8,10 +8,10 @@ import PromoBanner from "./PromoBanner";
 
 const Home = () => {
     return (
-       <div className="background__color">
+       <div className="bg-white">
         <Banner />
         <Categories />
-        {/* <Banner2 /> */}
+        <Banner2 />
         <TrendingProducts />
         {/* <DealsSection />
         <PromoBanner /> */}

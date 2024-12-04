@@ -8,9 +8,11 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
 }
 
 :root {
-    --primary-color:#995a21;
+    --primary-color:#985A26;
     --primary-color-dark: #991a21;
-    --primary-color-light: #99921a;
+    --primary-color-light: #fff1f1;
+    --the-pink: #FFCDCD;
+    --the-red: #FF0000;
     --text-dark: #0f172a;
     --text-light: #64748b;
     --extra-light: #f8fafc;
@@ -33,7 +35,7 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
 
 .section__container {
     background-color: var(--primary-color-light);
-    max-width: var(--max-width-1400);
+    max-width: 100%;
     margin: auto;
     padding: 5rem 1rem;
 }
@@ -66,15 +68,16 @@ src: local('Lydian Regular'), url('/fonts/LYDIAN__.woff') format('woff');
     outline: none;
     border: none;
     font-size: 1.5rem;
-    color: var(--white);
-    background-color: var(--primary-color-dark);
+    color: var(--the-red);
+    background-color: var(--the-pink);
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: var(--primary-color-dark);
+    color: var(--the-pink);
+    background-color: var(--the-red);
 }
 
 img {
@@ -91,7 +94,7 @@ body {
 }
 
 nav {
-    
+    position: static;
     max-width: var(--max-width-1200);
     margin: auto;
     padding: 2rem 1rem;
@@ -101,6 +104,7 @@ nav {
 }
 
 .navbar {
+    position: static;
     color: white;
     background-color: var(--primary-color);
 }
@@ -176,7 +180,7 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     font-family: var(--header-font);
-    color: var(--primary-color-dark);
+    color: var(--the-red);
 }
 
 .header__content p {

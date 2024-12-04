@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
 
             <div className="header__image">
-                <img className="header__foreground__image" src={bannerImg} alt="" />
+                {/* <img className="header__foreground__image" src={bannerImg} alt="" /> */}
                 {/* <img className="header__background__right__image" src={bannerImg1} alt="" /> */}
                 {/* <img className="header__background__left__image" src={bannerImg2} alt="" /> */}
             </div>
