@@ -198,7 +198,6 @@ nav {
 .header__foreground__image {
     position: absolute;
     left: 50%;
-    bottom: -5rem;
     transform: translateX(-50%);
     max-width: 100%;
     z-index: 1;

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Short",
+        "time": "45 minutes",
+        "sub": "Pixies and other short hairstyles. Going from long to short? Book an Extra Time Haircut."
+    },
+    {
+        "title": "Mid Length/Long",
+        "time": "1 hour",
+        "sub": "For hair ear length and longer."
+    },
+    {
+        "title": "Extra Time Haircut",
+        "time" : "1.5 hours",
+        "sub": "For those with lots of hair or very long hair, and those going from long to short."
+    },
+    {
+        "title": "Bang Trim",
+        "time" : "20 minutes",
+        "sub": "One complimentary bang trim between haircuts for existing clients. Existing bangs only."
+    },
+    {
+        "title": "Blow Out",
+        "time" : "45 minutes",
+        "sub": "Shampoo + blow out. Included in all color and cut services, or scheduled solo."
+    },
+    {
+        "title": "Keratin",
+        "time" : "3 hours",
+        "sub": "Semi-permanent smoothing treatment for eliminating frizz."
+    }
+]

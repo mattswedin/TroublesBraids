@@ -10,8 +10,6 @@ const Navbar = () => {
                     <li className="link"><Link to="/team">Team</Link></li>
                     <li className="link"><Link to="/services">Services</Link></li>
                     <li className="link"><Link to="/shop">Shop</Link></li>
-                    <li className="link"><Link to="/about">About</Link></li>
-                    <li className="link"><Link to="/policies">Policies</Link></li>
                 </ul>
 
                 {/* logo */}
@@ -39,6 +37,19 @@ const Navbar = () => {
                     </span>
                  </div>
             </nav>
+                 <div className="nav__decor">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </div>
         </header>
     )
 }

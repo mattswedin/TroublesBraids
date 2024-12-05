@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bannerImg from '../../assets/header.png'
-import bannerImg1 from '../../assets/header4.png'
-import bannerImg2 from '../../assets/header5.png'
+import bannerImg from '../../assets/salon_interior.jpeg'
 
 const Banner = () => {
     return (
@@ -17,8 +15,6 @@ const Banner = () => {
 
             <div className="header__image">
                 {/* <img className="header__foreground__image" src={bannerImg} alt="" /> */}
-                {/* <img className="header__background__right__image" src={bannerImg1} alt="" /> */}
-                {/* <img className="header__background__left__image" src={bannerImg2} alt="" /> */}
             </div>
 
          </div>

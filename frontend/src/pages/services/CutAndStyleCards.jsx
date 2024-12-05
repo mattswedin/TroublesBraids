@@ -1,14 +1,15 @@
 import React from "react";
-import color from "../../data/color.json"
+import cutAndStylings from "../../data/cutAndStylings.json"
 
 const CutAndStyleCards = () => {
     return (
         <div>
             {
-                color.map((color, index) => (
+                cutAndStylings.map((cut, index) => (
                     <div key={index} >
-                        <h4>{color.title}</h4>
-                        <p>{color.sub}</p>
+                        <h4>{cut.title}</h4>
+                        <h6>{cut.time}</h6>
+                        <p>{cut.sub}</p>
                     </div>
                     
                 ))
