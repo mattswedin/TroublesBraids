@@ -4,6 +4,7 @@ import Home from "../pages/home/Home"
 import Team from "../pages/team/Team";
 import Services from "../pages/services/Services";
 import CategoryPage from "../pages/category/CategoryPage";
+import Search from "../pages/search/Search";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,9 @@ const router = createBrowserRouter([
         },
         {
             path: '/categories/:categoryName', element: <CategoryPage />
+        },
+        {
+            path: '/search', element: <Search/>
         }
     ]
   },
