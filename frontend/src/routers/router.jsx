@@ -5,6 +5,7 @@ import Team from "../pages/team/Team";
 import Services from "../pages/services/Services";
 import CategoryPage from "../pages/category/CategoryPage";
 import Search from "../pages/search/Search";
+import Shop from "../pages/shop/Shop";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,18 @@ const router = createBrowserRouter([
             element: <Services />
         },
         {
+            path: '/shop',
+            element: <Shop/>
+        },
+        {
+            path: '/categories/:categoryName', 
+            element: <CategoryPage />
+        },
+        {
+            path: '/search', 
+            element: <Search/>
+        },
+        {
             path: '/about',
             element: <div>About Page</div>
         },
@@ -31,16 +44,6 @@ const router = createBrowserRouter([
             path: '/policies',
             element: <div>Policies Page</div>
         },
-        {
-            path: '/shop',
-            element: <div>Shop</div>
-        },
-        {
-            path: '/categories/:categoryName', element: <CategoryPage />
-        },
-        {
-            path: '/search', element: <Search/>
-        }
     ]
   },
 ]);

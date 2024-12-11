@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "cleansing",
+    "category": "Cleansing + Conditioning",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
@@ -12,7 +12,7 @@
     {
     "id": 2,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "conditioning",
+    "category": "Cleansing + Conditioning",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
@@ -22,7 +22,7 @@
    {
     "id": 3,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "styling",
+    "category": "Styling + Finishing",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
@@ -32,7 +32,7 @@
     {
     "id": 4,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "styling",
+    "category": "Styling + Finishing",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
@@ -42,7 +42,7 @@
     {
     "id": 5,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "styling",
+    "category": "Styling + Finishing",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "HAIRSTORY HAIR BALM",
-    "category": "cleansing",
+    "category": "Handmade + Curiousities",
     "description": "Smooth things over with moisture and set your blow-dryer free. Hair Balm revives parched strands, defines waves and curls, and air-dries all hair types into soft, shiny perfection. A little Hair Balm goes a long way—and so do its ripple effects. An extra touch of this lightweight formula between wash days instantly re-smooths frizz and restores texture.",
     "price": 20.00,
     "oldPrice": 25.00,
