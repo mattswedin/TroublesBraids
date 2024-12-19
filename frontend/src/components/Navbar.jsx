@@ -1,7 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    const products = useSelector((state) => state.cart.products)
+
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md navbar">
             <nav className='max-w-screen-2x1 mx-auto px-4 flex justify-between items-baseline'>

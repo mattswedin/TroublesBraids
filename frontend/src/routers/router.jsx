@@ -6,6 +6,7 @@ import Services from "../pages/services/Services";
 import CategoryPage from "../pages/category/CategoryPage";
 import Search from "../pages/search/Search";
 import Shop from "../pages/shop/Shop";
+import SingleProduct from "../pages/shop/ProductDetails/SingleProduct";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
             path: '/shop',
             element: <Shop/>
+        },
+        {
+            path: '/shop/:id',
+            element: <SingleProduct/>
         },
         {
             path: '/categories/:categoryName', 
