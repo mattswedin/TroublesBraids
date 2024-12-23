@@ -15,8 +15,8 @@ const OrderSummary = () => {
                 <p>Tax ({taxRate * 100}%) ${tax.toFixed(2)}</p>
                 <h3 className='font-bold'>Grand Total: ${grandTotal.toFixed(2)}</h3>
                 <div className='px-4 mb-6'>
-                    <button className='bg-red-500 px-3 py-1.5 text-white mt-2 rounded-md flex justify-between items-center mb-4'><span className='mr-2'>Clear Cart</span><i class="ri-delete-bin-6-fill"></i></button>
-                    <button className='bg-green-500 px-3 py-1.5 text-white mt-2 rounded-md flex justify-between items-center mb-4'><span className='mr-2'>Proceed Checkout</span><i class="ri-bank-card-fill"></i></button>
+                    <button className='bg-red-500 px-3 py-1.5 text-white mt-2 rounded-md flex justify-between items-center mb-4'><span className='mr-2'>Clear Cart</span><i className="ri-delete-bin-6-fill"></i></button>
+                    <button className='bg-green-500 px-3 py-1.5 text-white mt-2 rounded-md flex justify-between items-center mb-4'><span className='mr-2'>Proceed Checkout</span><i className="ri-bank-card-fill"></i></button>
 
                 </div>
             </div>
