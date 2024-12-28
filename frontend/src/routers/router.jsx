@@ -7,6 +7,7 @@ import CategoryPage from "../pages/category/CategoryPage";
 import Search from "../pages/search/Search";
 import Shop from "../pages/shop/Shop";
 import SingleProduct from "../pages/shop/ProductDetails/SingleProduct";
+import Login from "../components/Login";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
         },
     ]
   },
+  {
+    path:"/login",
+    element: <Login/>
+  }
 ]);
 
 export default router;

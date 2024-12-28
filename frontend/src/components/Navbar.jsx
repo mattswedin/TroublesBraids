@@ -40,7 +40,7 @@ const Navbar = () => {
                         </button>
                     </span>
                     <span>
-                        <Link to="login">
+                        <Link to="/login">
                             <i className="ri-user-fill"></i>
                         </Link>
                     </span>
