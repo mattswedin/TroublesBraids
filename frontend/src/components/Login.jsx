@@ -33,7 +33,7 @@ const Login = () => {
                     >Login</button>
                 </form>
 
-                <p>Don't have an account? <Link to='/register'>Register here.</Link></p>
+                <p>Don't have an account? <Link to='/register' className="text-red-700 px-1 underline">Register here.</Link></p>
             </div>
         </section>
     )
